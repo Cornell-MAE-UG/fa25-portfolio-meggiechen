@@ -6,7 +6,7 @@ title: <Your Name>
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "/assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
  
 My name is Meggie Chen, and I'm a sophomore studying Mechanical Engineering with a minor in Aerospace Engineering at Cornell University. 
