@@ -1,18 +1,16 @@
 ---
 layout: project
-title: MAE 2250 ODP Client Proposal
+title: Mitigating Spotted Lanternfly Contamination During Mechanical Grape Harvest
 description: Client Proposal for removal of SLFs from grapevines
 technologies: [Matlab]
 ---
 
-# Mitigating Spotted Lanternfly Contamination During Mechanical Grape Harvest
-
-**Team:** _Your Team Name_  
+**Team:** ZAM 
 **Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
 ---
 
-## Problem Statement (most important)
+## Problem Statement
 
 From August to November, spotted lanternflies (SLFs) mature into their adult form and migrate onto grape crops, with up to 400 insects per vine. During mechanical harvesting, SLFs that cling to grape clusters enter the harvesting machinery along with the grapes.  
 
