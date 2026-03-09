@@ -11,5 +11,3 @@ In this homework assignment, I gained a deeper understanding of thermal resistan
        type="application/pdf" 
        width="100%" 
        height="800px" />
-
-       assets/pdfs/MAE 3240 HW4.pdf
