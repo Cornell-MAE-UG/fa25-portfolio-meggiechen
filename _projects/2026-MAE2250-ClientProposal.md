@@ -1,117 +1,211 @@
 ---
 layout: project
 title: Mitigating Spotted Lanternfly Contamination During Mechanical Grape Harvest
-description: Client Proposal for removal of SLFs from grapevines
-technologies: [Matlab]
+description: Integrated mechanical systems for removing SLFs during harvest
+technologies: [Mechanical Design, Prototyping, Testing, MATLAB]
+image: /assets/images/slf_project.png
 ---
 
-**Team:** ZAM 
-**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
+## Table of Contents
 
----
-
-## Problem Statement
-
-From August to November, spotted lanternflies (SLFs) mature into their adult form and migrate onto grape crops, with up to 400 insects per vine. During mechanical harvesting, SLFs that cling to grape clusters enter the harvesting machinery along with the grapes.  
-
-There is currently no mechanism in place to prevent SLFs from entering the harvester. Even one or two SLFs can contaminate an entire batch of grapes, making the product unsellable. This leads to wasted resources and increased production costs.  
-
-The core challenge is removing SLFs during harvest without disrupting the mechanical harvesting process or damaging grapes.
+- [Client Pitch](#client-pitch)
+- [Functional Prototype](#functional-prototype)
+- [Final Prototype](#final-prototype)
 
 ---
 
-## Impact
+# Client Pitch
 
-Targeting SLFs during mechanical harvest provides the greatest level of control while minimizing interference with existing vineyard operations. By integrating directly with the harvester, the solution:
+**Team:** ZAM  
+**Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
-- Adds minimal additional labor
-- Avoids introducing separate removal steps
-- Preserves harvest efficiency
-- Reduces contamination-related product loss
+### Problem Statement
 
-Solving this problem directly addresses client needs by improving yield viability and reducing economic losses.
+From August to November, spotted lanternflies (SLFs) migrate onto grape crops, reaching densities of up to 400 insects per vine. During mechanical harvesting, SLFs cling to grape clusters and enter the harvester along with the grapes.  
 
----
-
-## Proposed Direction(s)
-
-### Concept A (Primary): SLF Vacuum System
-
-**What it is:**  
-A vacuum attachment integrated into the harvester that removes SLFs from harvested grapes before they enter the main collection reservoir.
-
-**How it would be used:**
-
-- Attach vacuum system to the collector system before the reservoir  
-- As grapes enter, SLFs are suctioned away  
-- Juice and grapes pass through filtration and remain in the system  
-- SLFs are deposited into a separate bin or expelled from the harvester  
-
-**Why it’s better than the status quo:**
-
-- Prevents SLFs from entering the final grape collection  
-- Provides automatic sorting without manual labor  
-- Fully integrated into existing harvesting workflow  
-
-**End-of-semester proof-of-concept:**  
-A tested vacuum prototype that successfully removes SLF models while avoiding grape removal.
+Even one or two SLFs can contaminate an entire batch, making it unsellable. There is currently no reliable method to prevent this.
 
 ---
 
-### Concept B: SLF Removal via Compressed Air System
+### Impact
 
-**What it is:**  
-A front-mounted attachment that detects SLF concentration and deploys compressed air to dislodge them before the grape vines are shaken.
+Targeting SLFs during harvest provides maximum impact with minimal disruption:
 
-**How it would be used:**
-
-- Mount mechanism to the front of the harvester  
-- Detect high SLF concentration  
-- Pause harvesting  
-- Deploy compressed air to dislodge SLFs  
-- Resume harvesting once SLF concentration decreases  
-
-**Why it’s better than the status quo:**
-
-- Removes SLFs before they enter the harvester  
-- Integrated into the harvesting process  
-- Uses relatively inexpensive and reusable compressed air  
-
-**End-of-semester proof-of-concept:**  
-
-- Functional compressed air deployment mechanism  
-- Reliable on-demand activation system  
-- Demonstrated mounting solution for common harvester models  
+- No added labor  
+- No workflow interruption  
+- Maintains harvest efficiency  
+- Reduces economic losses  
 
 ---
 
-## Key Risks / Unknowns
+### Proposed Direction
 
-- **Vacuum pressure precision** — Too strong may remove grapes or juice; too weak may fail to remove SLFs.  
-  *Test:* Develop weight-accurate SLF and grape models to determine optimal suction range.
+We explored integrated mechanical solutions that remove SLFs during harvesting:
 
-- **Grape displacement from compressed air** — Air blasts may dislodge grapes along with SLFs.  
-  *Test:* Controlled trials measuring grape loss during air deployment.
-
-- **Harvest speed reduction** — Detection and air deployment may slow overall harvesting time.  
-  *Test:* Measure response time and reliability over 30 repeated deployments.
+- Vacuum-based separation  
+- Compressed air dislodging system  
 
 ---
 
-## Questions for the Client
+# Functional Prototype
 
-1. Is there quantitative data on how strongly SLFs grip grape crops?  
-   *Decision affected:* Required vacuum strength and compressed air pressure.
+**Open Design Project 5 — Team ZAM (F6)**
 
-2. Can we obtain specifications for the most commonly used harvester models?  
-   *Decision affected:* Mounting design and integration constraints.
+---
 
-3. Can SLFs continue gripping crops after death, and for how long?  
-   *Decision affected:* Feasibility of chemical or pre-harvest mitigation strategies.
+## Purpose
 
+Develop and validate a **mechanism capable of actuating a compressed air canister** to remove SLFs from grape clusters.
 
+---
 
-<embed src="{{ '/assets/pdfs/ODP 3_ Client Outline.pdf' | relative_url }}" 
-       type="application/pdf" 
-       width="100%" 
-       height="800px" />
+## Key Components
+
+- Compressed Air Can (McMaster 7437K35)  
+- Crank Handle (McMaster 6547N15)  
+- 8mm Ball Bearings (2x)  
+- 3D Printed Shaft (trigger compressor)  
+- 3D Printed Housing + Bracket *(substituted with wood prototype)*  
+
+---
+
+## Assembly Overview
+
+1. Insert bearings into housing and secure  
+2. Assemble housing (leave one side open)  
+3. Mount compressed air can (CAC) into bracket  
+4. Insert shaft through bearings  
+5. Attach sideplate and secure housing  
+6. Attach crank handle  
+
+**Note:** Adhesives were used for flexibility in early prototyping.
+
+---
+
+## Design Tests
+
+### Test 1 — Trigger Actuation Mechanism
+
+**Goal:** Ensure shaft can properly engage and actuate trigger  
+
+- Required force: **25–45 N**  
+- Measured fit: ~1 mm tolerance  
+- Rotation required: ~15–25°  
+
+**Result:**  
+- Successfully actuates trigger  
+- Shaft deflection observed (2–3 mm)
+
+**Conclusion:**  
+- Mechanism works  
+- Shaft needs reinforcement  
+
+---
+
+### Test 2 — Structural Stability
+
+**Goal:** Ensure housing supports system and maintains alignment  
+
+**Result:**  
+- ~0.5 mm lateral movement observed  
+
+**Conclusion:**  
+- Acceptable tolerance  
+- Transition to **laser-cut acrylic housing** planned  
+
+---
+
+### Test 3 — SLF Removal Distance
+
+**Goal:** Blow off 1 g SLF models at **0.5 m distance**
+
+**Result:**  
+- Effective up to **0.3 m (1 ft)**  
+
+**Conclusion:**  
+- Below target distance  
+- Improvements needed:
+  - Stronger shaft (full trigger force)
+  - Better nozzle orientation  
+
+---
+
+## Success Criteria
+
+| Criterion | Target | Result |
+|----------|--------|--------|
+| Trigger force | 25–45 N | Achieved |
+| Removal distance | 0.5 m | 0.3 m |
+| Actuation time | < 10 s | Achieved |
+
+---
+
+## Key Takeaways
+
+- Mechanism successfully actuates compressed air  
+- Structural design is viable  
+- Performance limited by shaft strength and airflow direction  
+
+---
+
+# Final Prototype
+
+### Concept: Compressed Air SLF Removal System
+
+<img src="{{ "/assets/images/air_canister_prototype.png" | relative_url }}" width="70%" alt="Compressed Air Prototype">
+
+---
+
+## What it is
+
+A **mounted compressed air system with directional control** that removes SLFs before they enter the harvester.
+
+---
+
+## Key Features
+
+- Concentrated air stream  
+- Two-axis gimbal for aiming  
+- Mounted integration with harvester  
+- Manual crank actuation  
+
+---
+
+## Performance Highlights
+
+- Removes SLFs at distances up to **2.5 ft (~0.76 m)**  
+- Achieves required **45 N trigger force**  
+- Average response time: **~5.5 seconds**  
+
+---
+
+## Improvements from Functional Prototype
+
+- Increased removal distance  
+- Stronger actuation mechanism  
+- Improved targeting via gimbal  
+- More stable mounting system  
+
+---
+
+## Remaining Challenges
+
+- Risk of dislodging grapes  
+- Disposable air supply  
+- Manual operation limits scalability  
+- Separate aiming + actuation systems  
+
+---
+
+## Future Work
+
+- Refillable compressed air system  
+- Automated actuation (motors)  
+- SLF detection (vision/sensors)  
+- Integrated control system  
+
+---
+
+## Conclusion
+
+This project demonstrates a **feasible and scalable mechanical approach** to reducing SLF contamination during harvest. The system shows strong performance improvements from early prototypes and provides a clear path toward automation and real-world deployment.
