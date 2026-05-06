@@ -162,7 +162,7 @@ Develop and validate a **mechanism capable of actuating a compressed air caniste
 
 ### Concept: Compressed Air SLF Removal System
 
-<img src="{{ "/assets/images/air_canister_prototype.png" | relative_url }}" width="70%" alt="Compressed Air Prototype">
+<img src="{{ "/assets/images/ODP_Final.png" | relative_url }}" width="80%" alt="Compressed Air Prototype">
 
 ---
 
@@ -179,9 +179,9 @@ A **mounted compressed air system with directional control** that removes SLFs b
 - Mounted integration with harvester  
 - Manual crank actuation  
 
-<img src="{{ "/assets/images/ODP_CP1.png" | relative_url }}" width="50%" alt="side view">
-<img src="{{ "/assets/images/ODP_CP2.png" | relative_url }}" width="50%" alt="side view">
-<img src="{{ "/assets/images/ODP_CPD3.png" | relative_url }}" width="50%" alt="side view">
+<img src="{{ "/assets/images/ODP_CP1.png" | relative_url }}" width="80%" alt="side view">
+<img src="{{ "/assets/images/ODP_CP2.png" | relative_url }}" width="80%" alt="side view">
+<img src="{{ "/assets/images/ODP_CPD3.png" | relative_url }}" width="80%" alt="side view">
 
 ---
 
