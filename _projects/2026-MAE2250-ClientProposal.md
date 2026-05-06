@@ -67,7 +67,7 @@ Develop and validate a **mechanism capable of actuating a compressed air caniste
 - 3D Printed Shaft (trigger compressor)  
 - 3D Printed Housing + Bracket *(substituted with wood prototype)* 
 
-<img src="{{ "/assets/images/ODP_DRAWING.png" | relative_url }}" width="20%" alt="diagonal view">
+<img src="{{ "/assets/images/ODP_DRAWING.png" | relative_url }}" width="80%" alt="diagonal view">
 
 ---
 
@@ -82,9 +82,9 @@ Develop and validate a **mechanism capable of actuating a compressed air caniste
 
 **Note:** Adhesives were used for flexibility in early prototyping.
 
-<img src="{{ "/assets/images/ODP_CAD1.png" | relative_url }}" width="20%" alt="diagonal view">
-<img src="{{ "/assets/images/ODP_CAD2.png" | relative_url }}" width="20%" alt="front view">
-<img src="{{ "/assets/images/ODP_CAD3.png" | relative_url }}" width="20%" alt="side view">
+<img src="{{ "/assets/images/ODP_CAD1.png" | relative_url }}" width="50%" alt="diagonal view">
+<img src="{{ "/assets/images/ODP_CAD2.png" | relative_url }}" width="50%" alt="front view">
+<img src="{{ "/assets/images/ODP_CAD3.png" | relative_url }}" width="50%" alt="side view">
 
 
 ---
@@ -107,6 +107,8 @@ Develop and validate a **mechanism capable of actuating a compressed air caniste
 - Mechanism works  
 - Shaft needs reinforcement  
 
+<img src="{{ "/assets/images/ODP_Test1.png" | relative_url }}" width="80%" alt="side view">
+
 ---
 
 ### Test 2 — Structural Stability
@@ -120,6 +122,7 @@ Develop and validate a **mechanism capable of actuating a compressed air caniste
 - Acceptable tolerance  
 - Transition to **laser-cut acrylic housing** planned  
 
+<img src="{{ "/assets/images/ODP_Test2.png" | relative_url }}" width="80%" alt="side view">
 ---
 
 ### Test 3 — SLF Removal Distance
@@ -175,6 +178,10 @@ A **mounted compressed air system with directional control** that removes SLFs b
 - Two-axis gimbal for aiming  
 - Mounted integration with harvester  
 - Manual crank actuation  
+
+<img src="{{ "/assets/images/ODP_CP1.png" | relative_url }}" width="50%" alt="side view">
+<img src="{{ "/assets/images/ODP_CP2.png" | relative_url }}" width="50%" alt="side view">
+<img src="{{ "/assets/images/ODP_CPD3.png" | relative_url }}" width="50%" alt="side view">
 
 ---
 
