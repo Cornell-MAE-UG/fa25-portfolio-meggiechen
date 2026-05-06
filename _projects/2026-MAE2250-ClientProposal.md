@@ -65,7 +65,9 @@ Develop and validate a **mechanism capable of actuating a compressed air caniste
 - Crank Handle (McMaster 6547N15)  
 - 8mm Ball Bearings (2x)  
 - 3D Printed Shaft (trigger compressor)  
-- 3D Printed Housing + Bracket *(substituted with wood prototype)*  
+- 3D Printed Housing + Bracket *(substituted with wood prototype)* 
+
+<img src="assets/images/ODP_DRAWING.png">
 
 ---
 
@@ -79,6 +81,10 @@ Develop and validate a **mechanism capable of actuating a compressed air caniste
 6. Attach crank handle  
 
 **Note:** Adhesives were used for flexibility in early prototyping.
+
+<img src="assets/images/ODP_CAD1.png">
+<img src="assets/images/ODP_CAD2.png">
+<img src="assets/images/ODP_CAD3.png">
 
 ---
 
