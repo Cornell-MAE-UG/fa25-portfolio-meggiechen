@@ -5,6 +5,11 @@ description: Integrated mechanical systems for removing SLFs during harvest
 technologies: [Mechanical Design, Prototyping, Testing, MATLAB]
 image: /assets/images/slf_project.png
 ---
+### Introduction
+
+From August to November, spotted lanternflies (SLFs) migrate onto grape crops, reaching densities of up to 400 insects per vine. This can cause contamination during grape harvesting which doesn't abide by food safety laws. We aim to develop a proof-of-concept solution that can be attached to a grape harvester to combat this problem.
+
+---
 
 ## Table of Contents
 
