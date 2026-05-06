@@ -67,7 +67,7 @@ Develop and validate a **mechanism capable of actuating a compressed air caniste
 - 3D Printed Shaft (trigger compressor)  
 - 3D Printed Housing + Bracket *(substituted with wood prototype)* 
 
-<img src="assets/images/ODP_DRAWING.png">
+<img src="{{ "/assets/images/ODP_DRAWING.png" | relative_url }}" width="80%" alt="parts sketches">
 
 ---
 
@@ -82,9 +82,10 @@ Develop and validate a **mechanism capable of actuating a compressed air caniste
 
 **Note:** Adhesives were used for flexibility in early prototyping.
 
-<img src="assets/images/ODP_CAD1.png">
-<img src="assets/images/ODP_CAD2.png">
-<img src="assets/images/ODP_CAD3.png">
+<img src="{{ "/assets/images/ODP_CAD1.png" | relative_url }}" width="80%" alt="diagonal view">
+<img src="{{ "/assets/images/ODP_CAD2.png" | relative_url }}" width="80%" alt="front view">
+<img src="{{ "/assets/images/ODP_CAD3.png" | relative_url }}" width="80%" alt="side view">
+
 
 ---
 
