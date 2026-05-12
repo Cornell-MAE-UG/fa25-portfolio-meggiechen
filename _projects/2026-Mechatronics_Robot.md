@@ -1,7 +1,7 @@
 ---
 layout: project
-title: ENGRD 2210 Porfolio Project: Heat Exchanger
-description: Understanding the thermodynamics behind a heat exchanger
+title: Mechatronics Robot Report
+description: Final report for cube gathering robot
 technologies: N/A
 ---
 
