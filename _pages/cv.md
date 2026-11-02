@@ -5,18 +5,23 @@ permalink: /cv/
 ---
 
 <style>
-  /* Widen the layout container for the CV page */
-  .post-content, .page-content, .wrapper, article {
-    max-width: 1000px !important;
-    width: 100% !important;
-    margin: 0 auto !important;
+  /* Force CV container to take up 80% of laptop screen width */
+  .cv-page-container {
+    width: 80vw;
+    max-width: 1400px;
+    margin-left: calc(-40vw + 50%);
+    margin-right: calc(-40vw + 50%);
+    padding: 0 10px;
+    box-sizing: border-box;
   }
 
+  /* On mobile phones, adapt cleanly to screen edges */
   @media screen and (max-width: 768px) {
-    .post-content, .page-content, .wrapper, article {
-      max-width: 100% !important;
-      padding-left: 15px !important;
-      padding-right: 15px !important;
+    .cv-page-container {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0 15px;
     }
   }
 
@@ -77,6 +82,8 @@ permalink: /cv/
   }
 </style>
 
+<div class="cv-page-container">
+
 ## Curriculum Vitae
 
 <div class="cv-download-container">
@@ -92,7 +99,7 @@ permalink: /cv/
 
 ### Education
 <div class="resume-row">
-  <div><strong>Cornell University</strong>, Ithaca NY — <em>B.S. in Mechanical Engineering</em>, GPA: 3.98</div>
+  <div><strong>Cornell University</strong>, Ithaca NY &mdash; <em>B.S. in Mechanical Engineering</em>, GPA: 3.98</div>
   <div class="resume-date">Expected Dec 2027</div>
 </div>
 <p style="margin-top: 6px; font-size: 0.9em; color: #475569;">
@@ -125,7 +132,7 @@ permalink: /cv/
   <div class="resume-date">Nov 2024 – Present</div>
 </div>
 <ul style="margin-top: 4px;">
-  <li>Evaluated landing gear concepts on weight, compliance, and manufacturability, then designed, fabricated, and validated a carbon-fiber leaf-spring gear using SolidWorks and Ansys FEA; verified a 36% weight reduction across physical drop trials (straight, tilted, sustained load) at $1\text{ m/s}$ landing velocity and $15^{\circ}$ roll.</li>
+  <li>Evaluated landing gear concepts on weight, compliance, and manufacturability, then designed, fabricated, and validated a carbon-fiber leaf-spring gear using SolidWorks and Ansys FEA; verified a 36% weight reduction across physical drop trials (straight, tilted, sustained load) at 1 m/s landing velocity and 15° roll.</li>
   <li>Characterized off-the-shelf strut suspension mechanics by executing static compression testing across incremental loads to extract effective spring stiffness, applying strain energy conservation models to predict peak dynamic deflection and boundary limits under free-fall conditions, giving a conservative upper limit safety margin.</li>
   <li>Reworked a DJI drone airframe to integrate custom hardware mounts and reinforce structurally unsound elements within constrained central-bay geometry, collaborating with electrical and imaging subteams to resolve interface and wiring constraints.</li>
 </ul>
@@ -146,8 +153,8 @@ permalink: /cv/
   <div class="resume-date">Jan 2026 – July 2026</div>
 </div>
 <ul style="margin-top: 4px;">
-  <li>Precision-machined a rocket bulkhead on a manual mill and lathe, holding $\pm0.005\text{ in}$ tolerances to ensure structural interface alignment, and fabricated custom 3D-printed mounting brackets.</li>
-  <li>Designed a compact four-bar linkage in Fusion 360 to synchronize dual valve actuation through a $90^{\circ}$ sweep with a single servo for liquid bi-propellant rocket, resolving engine-bay clearance constraints and preventing component interference; the linkage survived 2 hot fires and a live takeoff.</li>
+  <li>Precision-machined a rocket bulkhead on a manual mill and lathe, holding ±0.005 in tolerances to ensure structural interface alignment, and fabricated custom 3D-printed mounting brackets.</li>
+  <li>Designed a compact four-bar linkage in Fusion 360 to synchronize dual valve actuation through a 90° sweep with a single servo for liquid bi-propellant rocket, resolving engine-bay clearance constraints and preventing component interference; the linkage survived 2 hot fires and a live takeoff.</li>
 </ul>
 
 <div class="resume-row" style="margin-top: 16px;">
@@ -163,3 +170,5 @@ permalink: /cv/
 ### Skills
 * **Fabrication:** Manual Mill, Manual Lathe, Wet Carbon-Fiber Layups, 3D Printing, Rapid Prototyping
 * **Software:** SolidWorks, Fusion 360, Ansys Mechanical, Python, MATLAB, Java, Agile PLM, Windchill, Confluence
+
+</div>
